@@ -1,0 +1,15 @@
+# SSH Keys (Critical Security)
+ssh/*.pem
+*.pem
+
+# Kubernetes PKI and Configs
+k8s-pki/
+*.kubeconfig
+encryption-config.yaml
+
+# Binaries and state files
+bin/
+k8s-cluster.state
+
+# OS files
+.DS_Store
